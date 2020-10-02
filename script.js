@@ -190,3 +190,10 @@ const checkLetters = lt => {
     `);
   }
 };
+
+
+document.addEventListener('keydown', (e)=> {
+    if(e.code === 'Enter'){
+      window.location.reload();
+    }
+})
